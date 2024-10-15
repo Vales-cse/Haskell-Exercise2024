@@ -1,9 +1,3 @@
-import Distribution.Simple.Utils (xargs)
-import Distribution.Make (HasMungedPackageId(mungedId))
-import GHC.Natural (naturalFromInteger)
-import Control.Arrow (Arrow(first))
-import Distribution.Simple.Command (OptDescr(BoolOpt))
-
 -- In un file Triangolo.hs dichiarare le quantità base, altezza e ipotenusa di un triangolo rettangolo, fissando i cateti a piacere.
 catMin = 13.3
 
